@@ -313,7 +313,7 @@ footer{
     height: 10rem;
 }
 
-@media (max-width:600px) {
+@media (max-width:576px) {
     .weather #myTab{
         height: fit-content;
     }
@@ -335,8 +335,9 @@ footer{
     margin: 0;
     margin-bottom: 1rem;
    }
-   .places .card{
+   .row .card{
     margin: 0 !important;
+    margin-left: 2rem;
    }
    .social ul{
     flex-direction: row;
